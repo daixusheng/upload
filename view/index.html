@@ -7,46 +7,20 @@
   <title>Document</title>
 </head>
 <body>
-  <form action="http://wickedlysmart.com/hfhtmlcss/contest.php" method="POST">
+  <form action="http://localhost:5000" method="POST">
     <div>
-      <label for="name">姓名</label><input type="text" id="name" name="name" value="">
+      <label for="firstname">First name: </label>
+      <input type="text" id="firstname" name="firstname" value="">
     </div>
     <div>
-      <label for="gender">性别</label>
-      <input type="radio" name="gender" value="male">男
-      <input type="radio" name="gender" value="female">女
-      <input type="radio" name="gender" value="secret" checked>保密
-    </div>
-    <div>
-      <label for="lastname">年龄</label><input type="text" name="lastname" value="">
-    </div>
-    <div>
-      <label for="color">喜欢的颜色</label>
-      <input type="checkbox" name="color" value="white">白色
-      <input type="checkbox" name="color" value="black">黑色
-      <input type="checkbox" name="color" value="green">绿色
-    </div>
-    <div>
-      <label for="city">城市</label>
-      <select name="city" id="city">
-        <option value="beijing">北京</option>
-        <option value="zhuangzhou">广州</option>
-        <option value="wuhan">武汉</option>
-      </select>
-    </div>
-    <div>
-      <label for="">头像</label>
-      <input type="file">
-    </div>
-    <div>
-      <label for="briefIntro">个人简介</label>
-      <textarea id="briefIntro" name="briefIntro" cols="30" rows="10"></textarea>
+      <label for="lastname">Last name: </label>
+      <input type="text" id="lastname" name="lastname" value="">
     </div>
     <div>
       <input id="submit" type="submit" value="提交">
     </div>
   </form>
 
-  <script src="./main.js"></script>
+  <!-- <script src="./main.js"></script> -->
 </body>
 </html>
